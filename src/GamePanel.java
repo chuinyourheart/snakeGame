@@ -12,12 +12,11 @@ public class GamePanel extends JPanel {
     }
 
     @Override //Ela substitui um método já existente na classe pai
-    JPanel
     protected void paintComponent(Graphics g) {
 
         super.paintComponent(g);
 
         Graphics2D g2 = (Graphics2D) g;
-        board.draw(g2)
+        board.draw(g2);
     }
 }
